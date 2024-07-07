@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav>
+          <h1 className="text-3xl py-5 text-center">My NavBar</h1>
+        </nav>
+        {children}
+        </body>
     </html>
   );
 }

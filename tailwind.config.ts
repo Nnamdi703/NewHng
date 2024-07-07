@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+    colors:{
+      papayawhip:{
+        light: '#fef4e4',
+        default: '#ffefd5',
+        dark: 'fee5bc'
+      }
+    },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
